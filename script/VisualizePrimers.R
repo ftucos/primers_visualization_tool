@@ -1,4 +1,4 @@
-setwd("/Users/tucos/Downloads/primer plot")
+setwd(paste0(Sys.getenv("PROJECTS_ROOT"), "/Bioinformatics/workspace/other/primers_visualization_tool"))
 
 # Load necessary libraries
 library(tidyverse)
